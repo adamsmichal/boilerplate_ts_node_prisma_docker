@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="512" src="https://raw.githubusercontent.com/grdnmsz/prisma-docker/master/banner.png" alt="prisma-docker">
+  <img width="512" src="https://raw.githubusercontent.com/adamsmichal/boilerplate_ts_node_prisma_docker/main/banner.png" alt="prisma-docker">
 </div>
 
 ## Setting up a back-end environment for Prisma and Docker
