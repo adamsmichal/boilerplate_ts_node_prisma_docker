@@ -13,7 +13,7 @@ Template project to bootstrap a back-end application with nodejs (express), post
 ## Getting started
 - Clone this repository:
 ```
-git clone https://github.com/grdnmsz/prisma-docker.git
+git clone https://github.com/adamsmichal/boilerplate_ts_node_prisma_docker.git
 ```
 
 - Build, fetch and run docker containers
@@ -22,4 +22,14 @@ docker-compose build
 docker-compose up -d postgres
 docker-compose run backend npx prisma migrate dev
 docker-compose up -d backend
+```
+
+- Backend works on 5000
+<a href="http://localhost:5000/">http://localhost:5000/</a>
+
+- Postgress works on 5432
+
+- You can check your db by prisma studio
+```
+npx prisma studio
 ```
