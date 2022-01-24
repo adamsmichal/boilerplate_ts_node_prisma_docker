@@ -24,6 +24,11 @@ docker-compose run backend npx prisma migrate dev
 docker-compose up -d backend
 ```
 
+- Install dependencies
+```
+yarn install
+```
+
 - Backend works on 5000
 <a href="http://localhost:5000/">http://localhost:5000/</a>
 
